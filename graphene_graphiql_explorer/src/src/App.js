@@ -133,6 +133,8 @@ class App extends Component {
           schema={schema}
           query={query}
           onEditQuery={this._handleEditQuery}
+          headerEditorEnabled
+          editorTheme="nord"
         >
           <GraphiQL.Toolbar>
             <GraphiQL.Button
